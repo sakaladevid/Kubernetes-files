@@ -1,0 +1,22 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mysql-pod
+  labels:
+    type: db
+    author: intelliqit
+spec: 
+ containers:
+    name: mydb
+    image: mysql
+    env:
+      - name: MYSQL_ROOT_PASSWORD
+        value: fram
+         secretkeyRef:
+           name: mysql-secret
+           key: author
+...
+
+
+  
