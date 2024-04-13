@@ -1,0 +1,17 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: tomcat-pod
+  labels:
+    type: tomcat-pod
+spec:
+ containers:
+   - name: mytomcat
+     image: tomcat
+ tolerations:
+    - key: slave3
+      value: intelliqit3
+      operator: Equal
+      effect: NoSchedule
+...

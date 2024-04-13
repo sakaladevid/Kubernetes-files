@@ -457,3 +457,316 @@ sudo apt-get update
 sudo module-get update
 sudo m-get update
 ls
+git init
+git add .
+[200~sudo yum update
+~
+sudo yum update
+sudo yum install git
+git version
+git init
+git add .
+git commit -m "day1"
+ls
+git push
+git remote add origin https://github.com/sakaladevid/Terraform-files.git
+git push -u origin master
+ls
+cd ..
+ls
+yes
+kops create cluster --state=${KOPS_STATE_STORE} --node-count=2 --master-size=t3.medium --node-size=t3.medium --zones=us-west-2a --name=${KOPS_CLUSTER_NAME} --dns private --master-count 1
+kops create cluster --state=${KOPS_STATE_STORE} --node-count=2 --control-plane-size=t3.medium --node-size=t3.medium --zones=us-west-2a --name=${KOPS_CLUSTER_NAME} --dns private --control-plane-count 1
+kops update cluster --yes --admin
+kops validate cluster
+ls
+vim requestsandlimit1.ymll
+rm requestsandlimit1.yml
+ls
+rm  requestsandlimit1.ymll
+vim requestsandlimit1.yml
+kubectl apply -f requestsandlimit1.yml
+vim requestsandlimit1.yml
+kubectl apply -f requestsandlimit1.yml
+vim requestsandlimit1.yml
+kubectl apply -f requestsandlimit1.yml
+vim requestsandlimit1.yml
+kubectl apply -f requestsandlimit1.yml
+vim requestsandlimit1.yml
+kubectl apply -f requestsandlimit1.yml
+ls
+kubectl get all
+kubectl get pods
+kubectl get nodes
+kubectl label nodes i-0d9c013eb9857dd63 slave1=intelliqit2
+vim nodeaffinity1.yml
+kubectl apply -f nodeaffinity1.yml
+vim nodeaffinity1.yml
+ls
+kubectl apply -f nodeaffinity1.yml 
+cat nodeaffinity1.yml 
+cd ..
+ls
+cd ec2-user
+ls
+vim nodeaffinity1.yml 
+kubectl apply -f nodeaffinity1.yml 
+kubectl get all
+kubectl get pods -o wide
+kubectl delete -f nodeaffinity1.yml 
+kubectl apply -f pod-definition1.yml
+kubectl apply -f pod-definition1.yml U
+kubectl apply -f pod-definition1.yml 
+kubectl apply -f nodeaffinity1.yml 
+ls
+vim requestsandlimit1.yml
+kubectl apply -f requestsandlimit1.yml
+vim requestsandlimit1.yml
+kubectl apply -f requestsandlimit1.yml
+vim requestsandlimit1.yml
+kubectl apply -f requestsandlimit1.yml
+kubectl get pods
+kubectl describe pods httpd-pod | less
+vim requestsandlimit2.yml 
+kubectl apply -f requestsandlimit2.yml
+kubectl describe deployment httpd-deploy | less
+kubectl get all
+kubectl get pods -o wide
+kubectl delete-f requestsandlimit2.yml
+kubectl delete -f requestsandlimit2.yml
+kubectl delete -f requestsandlimit1.yml
+kubectl get all
+kubectl delete -f service1.yml
+kubectl delete -f service2.yml
+kubectl delete -f service3.yml
+kubectl get all
+kubectl delete -f service4.yml
+kubectl delete -f service5.yml
+kubectl delete -f definition1.yml
+kubectl delete -f definition2.yml
+kubectl delete -f definition3.yml
+kubectl delete -f definition4.yml
+kubectl delete -f definition5.yml
+kubectl delete -f definition6.yml
+ls
+kubectl delete -f difinition6.yml
+kubectl delete -f daemon1.yml
+kubectl delete -f daemonset1.yml
+kubectl delete -f difinition7.yml
+kubectl delete -f definition7.yml
+kubectl label nodes name slave=intelliqit1
+kubectl label nodes  ControlPlane slave=intelliqit1
+L
+--
+vim nodeaffinity1.yml
+kubectl get nodes
+kubectl label nodes name node=intelliqit1
+kubectl label nodes i-053156862f11fec2f slave=intelliqit
+vim nodeaffinity1.yml
+kubectl apply -f nodeaffinity1.yml
+vim nodeaffinity1.yml
+kubectl apply -f nodeaffinity1.yml
+vim nodeaffinity1.yml
+kubectl apply -f nodeaffinity1.yml
+vim nodeaffinity1.yml
+kubectl apply -f nodeaffinity1.yml
+vim nodeaffinity1.yml
+kubectl apply -f nodeaffinity1.yml
+vim nodeaffinity2.yml 
+vim nodeaffinity1.yml
+kubectl apply -f nodeaffinity
+kubectl apply -f nodeaffinity1.yml 
+vim nodeaffinity1.yml
+kubectl apply -f nodeaffinity1.yml 
+vim nodeaffinity1.yml
+cat nodeaffinity1.yml 
+kops create cluster --state=${KOPS_STATE_STORE} --node-count=2 --control-plane-size=t3.medium --node-size=t3.medium --zones=us-west-2a --name=${KOPS_CLUSTER_NAME} --dns private --control-plane-count 1
+kops update cluster --yes --admin
+kops validate cluster
+ls 
+vim nodeaffinity2.yml
+vim nodeaffinity1.yml
+vim nodeaffinity2.yml
+kubectl apply -f nodeaffinity2.yml
+kubectl get nodes
+kubectl describe nodes i-0156ba33c0077704f  | less
+kubectl get all
+kubectl get pods
+kubectl delete -f nodeaffinity1.yml
+kubectl delete -f nodeaffinity2.yml
+kubectl taint nodes i-0156ba33c0077704f  slave1=intelliqit:nosechedele
+kubectl taint nodes i-0156ba33c0077704f  slave1=intelliqit:nosechedule
+kubectl taint nodes i-0156ba33c0077704f  slave1=intelliqit:noschedule
+kubectl taint nodes i-0156ba33c0077704f  slave1=intelliqit:noschedele
+kubectl taint nodes i-0156ba33c0077704f  slave1=intelliqit:noschedule 
+kubectl taint nodes i-0156ba33c0077704f  slave2=intelliqit3:noschedule 
+kubectl taint nodes i-0156ba33c0077704f  slave2=intelliqit3:Noschedule 
+kubectl taint nodes i-0156ba33c0077704f  slave3=intelliqit3:Noschedule 
+kubectl get tainted nodes
+kubectl get taint nodes
+kubectl taint nodes i-0156ba33c0077704f slave3=intelliqit3:Noschedule 
+kubectl taint nodes i-0156ba33c0077704f slave3=intelliqit3:NoSchedule 
+kubectl apply -f definition1.yml
+kubectl get nodes
+kubectl get pods -o wide
+kubectl apply -f definition2.yml
+kubectl get pods -o wide
+kubectl apply -f definition3.yml
+kubectl get pods -o wide
+kubectl delete -f definition3.yml
+kubectl delete -f definition2.yml
+kubectl delete -f definition1.yml
+vim toleration1.yml
+kubectl taint nodes i-0308b673a0ddf08ee slave2=intelliqit2:NoSchedule 
+kubectl taint nodes i-0308b673a0ddf08ee slave1=intelliqit1:NoSchedule 
+kubectl apply -f toleration1.yml 
+vim toleration1.yml
+kubectl apply -f toleration1.yml 
+vim toleration1.yml
+kubectl taint nodes i-0308b673a0ddf08ee slave3=intelliqit3:NoSchedule- 
+kubectl taint nodes i-0308b673a0ddf08ee slave3=intelliqit3:NoSchedule_
+kubectl taint nodes i-0308b673a0ddf08ee slave3=intelliqit3:NoSchedule __
+kubectl taint nodes i-0308b673a0ddf08ee slave3=intelliqit3:NoSchedule -
+kubectl taint nodes i-0308b673a0ddf08ee slave3=intelliqit3:NoSchedule-
+vim toleration1.yml
+kubectl taint nodes i-0308b673a0ddf08ee slave3=intelliqit3:NoSchedule-
+kubectl taint nodes i-0308b673a0ddf08ee slave1=intelliqit1:NoSchedule-
+kubectl taint nodes i-0308b673a0ddf08ee slave2=intelliqit2:NoSchedule-
+ kubectl taint nodes i-0156ba33c0077704f slave3=intelliqit3:NoSchedule-
+ 
+kubectl get all
+kubectl get nodes
+kubectl apply -f toleration1.yml 
+vim toleration1.yml
+kubectl apply -f toleration1.yml 
+kubectl delete -f toleration1.yml 
+ kubectl taint nodes i-0156ba33c0077704f slave3=intelliqit3:NoSchedule
+ kubectl taint nodes i-0308b673a0ddf08ee slave2=intelliqit2:NoSchedule
+ kubectl taint nodes i-050da9daacaae1034 slave1=intelliqit1:NoSchedule
+kubectl apply -f toleration1.yml 
+kubectl get all
+ kubectl taint nodes i-050da9daacaae1034 slave1=intelliqit1:NoSchedule-
+ kubectl taint nodes i-0308b673a0ddf08ee slave2=intelliqit2:NoSchedule-
+ kubectl taint nodes i-0156ba33c0077704f slave3=intelliqit3:NoSchedule-
+kubectl get all
+kubectl delete -f toleration1.yml 
+vim toleration2.yml
+kubectl apply -f toleration2.yml 
+kubectl get pods -o wide
+kubectl get all
+kubectl get nodes -o wide
+$ curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+$curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+chmod 700 get_helm.sh
+./get_helm.sh
+helm --version
+helm version
+helm create mynginx
+cd mynginx
+ls
+vim service1.yml
+ls
+cd ..
+ls
+vim service1.yml
+cd mynginx
+ls
+vim values.yaml
+cd ..
+ls
+helm install nginx mynginx/
+kubectl get all
+helm uninstall nginx
+helm install nginx mynginx/
+kubectl get all
+helm uninstall nginx
+helm create mytomcat
+cd mytomcat/
+vim values.yaml
+cd ..
+helm install tomcat abc
+helm install tomcat abc/
+kubectl get all
+helm install tomcat abc/
+helm install tomcat abcd/
+helm install tomcat mytomcat/
+kubectl get all
+helm uninstall tomcat mytomcat/
+kubectl get all
+kubectl delete -f toleration1.yml
+kubectl delete -f toleration2.yml
+kubectl get all
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+helm repo update
+helm install [prometheus] prometheus-community/kube-prometheus-stack
+helm install prometheus prometheus-community/kube-prometheus-stack
+kubectl get all
+kubectl get svc
+kubectl get deployment
+kubectl get rs
+kubectl get ds
+kubectl get pod
+kubectl patch svc prometheus-grafana -p '{"spec":{"type":"loadbalancer"}}'
+kubectl patch svc prometheus-grafana -p '{"spec":{"type":"Loadbalancer"}}'
+kubectl patch svc Prometheus-Grafana -p '{"spec":{"type":"Loadbalancer"}}'
+kubectl patch svc Prometheus-Grafana -P '{"spec":{"type":"Loadbalancer"}}'
+kubectl patch svc prometheus-grafana -p '{"spec":{"type":"loadbalancer"}}'
+kubectl patch svc prometheus-grafana -p '{"spec":{"type":"LoadBalancer"}}'
+kubectl get all | less
+kubectl get all
+kubectl get svs | less
+kubectl get svc | less
+kubectk apply -f definition1.yml
+kubectl apply -f definition1.yml
+kubectl get pods
+kubectl exec -it nginx-pod --bash
+kubectl exec -it nginx-pod -- bash
+kubectl get pods
+vim volumes1.yml
+kubectl apply -f volumes1.yml
+vim volumes1.yml
+kubectl apply -f volumes1.yml
+vim volumes1.yml
+kubectl apply -f volumes1.yml
+vim volumes1.yml
+kubectl apply -f volumes1.yml
+vim volumes1.yml
+kubectl apply -f volumes1.yml
+kubectl get all
+kubectk delete -f definition1.yml
+kubectl delete -f definition1.yml
+kubectl get pods
+kubectl exec -it redis-pod -- bash
+kubectl get pods
+vim statefulset1.yml
+kubectl apply -f statefulset1.yml
+vim statefulset1.yml
+kubectl apply -f statefulset1.yml
+vim statefulset1.yml
+kubectl apply -f statefulset1.yml
+vim statefulset1.yml
+kubectl apply -f statefulset1.yml
+vim statefulset1.yml
+kubectl apply -f statefulset1.yml
+vim statefulset1.yml
+kubectl apply -f statefulset1.yml
+vim statefulset1.yml
+kubectl apply -f statefulset1.yml
+cat statefulset1.yml 
+vim statefulset1.yml
+kubectl apply -f statefulset1.yml
+vim statefulset1.yml
+kubectl apply -f statefulset1.yml
+vim statefulset1.yml
+kubectl apply -f statefulset1.yml
+vim statefulset1.yml
+kubectl apply -f statefulset1.yml
+vim statefulset1.yml
+kubectl apply -f statefulset1.yml
+vim statefulset1.yml
+kubectl apply -f statefulset1.yml
+ls
+vim statefulset1.yml
+kubectl apply -f statefulset1.yml
+kubectl get all

@@ -1,0 +1,37 @@
+2024-04-10 11:26:55.169 [info] 
+
+
+
+
+2024-04-10 11:26:55.169 [info] Extension host agent started.
+2024-04-10 11:26:55.170 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+2024-04-10 11:26:55.189 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+2024-04-10 11:26:55.677 [info] [<unknown>][3983ab1e][ManagementConnection] New connection established.
+2024-04-10 11:26:55.679 [info] [<unknown>][b039e28d][ExtensionHostConnection] New connection established.
+2024-04-10 11:26:55.845 [info] [<unknown>][b039e28d][ExtensionHostConnection] <6476> Launched Extension Host Process.
+2024-04-10 11:27:42.976 [info] [<unknown>][42d64a56][ExtensionHostConnection] New connection established.
+2024-04-10 11:27:42.978 [info] [<unknown>][41655630][ManagementConnection] New connection established.
+2024-04-10 11:27:42.983 [info] [<unknown>][42d64a56][ExtensionHostConnection] <6654> Launched Extension Host Process.
+2024-04-10 11:31:55.091 [info] New EH opened, aborting shutdown
+2024-04-10 11:31:55.092 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/server/node/server.main.js:191:6058)
+    at process.emit (node:events:517:28)
+2024-04-10 11:32:43.225 [info] [<unknown>][b039e28d][ExtensionHostConnection] <6476> Extension Host Process exited with code: 0, signal: null.
+2024-04-10 11:32:44.446 [info] [<unknown>][9c8e48b9][ManagementConnection] New connection established.
+2024-04-10 11:32:44.449 [info] [<unknown>][e6da95ed][ExtensionHostConnection] New connection established.
+2024-04-10 11:32:44.455 [info] [<unknown>][e6da95ed][ExtensionHostConnection] <7073> Launched Extension Host Process.
+2024-04-10 11:33:29.131 [info] Getting Manifest... ms-kubernetes-tools.vscode-kubernetes-tools
+2024-04-10 11:33:29.190 [info] Installing extension: ms-kubernetes-tools.vscode-kubernetes-tools
+2024-04-10 11:33:29.383 [info] Getting Manifest... redhat.vscode-yaml
+2024-04-10 11:33:29.477 [info] Installing extension: redhat.vscode-yaml
+2024-04-10 11:33:33.247 [info] Extension signature is verified: redhat.vscode-yaml
+2024-04-10 11:33:33.262 [info] Extension signature is verified: ms-kubernetes-tools.vscode-kubernetes-tools
+2024-04-10 11:33:33.640 [info] Extracted extension to file:///home/ec2-user/.vscode-server/extensions/redhat.vscode-yaml-1.14.0: redhat.vscode-yaml
+2024-04-10 11:33:33.650 [info] Renamed to /home/ec2-user/.vscode-server/extensions/redhat.vscode-yaml-1.14.0
+2024-04-10 11:33:33.654 [info] Extracting extension completed. redhat.vscode-yaml
+2024-04-10 11:33:33.786 [info] Extracted extension to file:///home/ec2-user/.vscode-server/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.16: ms-kubernetes-tools.vscode-kubernetes-tools
+2024-04-10 11:33:33.794 [info] Renamed to /home/ec2-user/.vscode-server/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.16
+2024-04-10 11:33:33.797 [info] Extracting extension completed. ms-kubernetes-tools.vscode-kubernetes-tools
+2024-04-10 11:33:33.801 [info] Extension installed successfully: redhat.vscode-yaml
+2024-04-10 11:33:33.802 [info] Extension installed successfully: ms-kubernetes-tools.vscode-kubernetes-tools
+2024-04-10 11:37:44.621 [info] [<unknown>][42d64a56][ExtensionHostConnection] <6654> Extension Host Process exited with code: 0, signal: null.

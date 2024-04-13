@@ -12,13 +12,17 @@
 ~H
 # Command Line History (newest to oldest):
 :wq
-|2,0,1712665638,,"wq"
+|2,0,1712840399,,"wq"
+:WQ
+|2,0,1712837256,,"WQ"
+:wq'
+|2,0,1712836244,,"wq'"
+:qw
+|2,0,1712746377,,"qw"
 :q!
 |2,0,1712661701,,"q!"
 :w
 |2,0,1712661693,,"w"
-:WQ
-|2,0,1712569707,,"WQ"
 
 # Search String History (newest to oldest):
 
@@ -29,232 +33,525 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+""1	LINE	0
+	---
+|3,1,1,1,1,0,1712840051,"---"
+"2	LINE	0
+	apiVersion: v1
+|3,0,2,1,1,0,1712840051,"apiVersion: v1"
+"3	LINE	0
+	kind: Service
+|3,0,3,1,1,0,1712840051,"kind: Service"
+"4	LINE	0
+	metadata:
+|3,0,4,1,1,0,1712840051,"metadata:"
+"5	LINE	0
+	  name: nginx
+|3,0,5,1,1,0,1712840051,"  name: nginx"
+"6	LINE	0
+	  labels:
+|3,0,6,1,1,0,1712840051,"  labels:"
+"7	LINE	0
+	    app: nginx
+|3,0,7,1,1,0,1712840051,"    app: nginx"
+"8	LINE	0
+	spec:
+|3,0,8,1,1,0,1712840051,"spec:"
+"9	LINE	0
+	  clusterIP: None
+|3,0,9,1,1,0,1712840051,"  clusterIP: None"
 
 # File marks:
-'0  3  12  ~/daemonset2.yml
-|4,48,3,12,1712665638,"~/daemonset2.yml"
-'1  23  0  ~/daemonset2.yml
-|4,49,23,0,1712665531,"~/daemonset2.yml"
-'2  23  0  ~/daemonset2.yml
-|4,50,23,0,1712665531,"~/daemonset2.yml"
-'3  24  2  ~/daemonset2.yml
-|4,51,24,2,1712665315,"~/daemonset2.yml"
-'4  21  2  ~/daemonset2.yml
-|4,52,21,2,1712665315,"~/daemonset2.yml"
-'5  24  2  ~/daemonset2.yml
-|4,53,24,2,1712665315,"~/daemonset2.yml"
-'6  21  2  ~/daemonset2.yml
-|4,54,21,2,1712665315,"~/daemonset2.yml"
-'7  35  22  ~/deployment3.yml
-|4,55,35,22,1712664746,"~/deployment3.yml"
-'8  18  7  ~/deployment3.yml
-|4,56,18,7,1712664494,"~/deployment3.yml"
-'9  18  7  ~/deployment3.yml
-|4,57,18,7,1712664494,"~/deployment3.yml"
+'0  11  2  ~/statefulset1.yml
+|4,48,11,2,1712844915,"~/statefulset1.yml"
+'1  11  2  ~/statefulset1.yml
+|4,49,11,2,1712840399,"~/statefulset1.yml"
+'2  10  1  ~/statefulset1.yml
+|4,50,10,1,1712840364,"~/statefulset1.yml"
+'3  10  1  ~/statefulset1.yml
+|4,51,10,1,1712840364,"~/statefulset1.yml"
+'4  10  1  ~/statefulset1.yml
+|4,52,10,1,1712840364,"~/statefulset1.yml"
+'5  10  1  ~/statefulset1.yml
+|4,53,10,1,1712840364,"~/statefulset1.yml"
+'6  9  2  ~/statefulset1.yml
+|4,54,9,2,1712840196,"~/statefulset1.yml"
+'7  9  2  ~/statefulset1.yml
+|4,55,9,2,1712840196,"~/statefulset1.yml"
+'8  9  2  ~/statefulset1.yml
+|4,56,9,2,1712840196,"~/statefulset1.yml"
+'9  9  2  ~/statefulset1.yml
+|4,57,9,2,1712840196,"~/statefulset1.yml"
 
 # Jumplist (newest first):
--'  3  12  ~/daemonset2.yml
-|4,39,3,12,1712665638,"~/daemonset2.yml"
--'  23  0  ~/daemonset2.yml
-|4,39,23,0,1712665552,"~/daemonset2.yml"
--'  23  0  ~/daemonset2.yml
-|4,39,23,0,1712665531,"~/daemonset2.yml"
--'  24  2  ~/daemonset2.yml
-|4,39,24,2,1712665482,"~/daemonset2.yml"
--'  24  2  ~/daemonset2.yml
-|4,39,24,2,1712665482,"~/daemonset2.yml"
--'  21  2  ~/daemonset2.yml
-|4,39,21,2,1712665315,"~/daemonset2.yml"
--'  21  2  ~/daemonset2.yml
-|4,39,21,2,1712665315,"~/daemonset2.yml"
--'  1  0  ~/daemonset2.yml
-|4,39,1,0,1712665051,"~/daemonset2.yml"
--'  1  0  ~/daemonset2.yml
-|4,39,1,0,1712665051,"~/daemonset2.yml"
--'  1  0  ~/daemonset2.yml
-|4,39,1,0,1712665051,"~/daemonset2.yml"
--'  35  22  ~/deployment3.yml
-|4,39,35,22,1712664746,"~/deployment3.yml"
--'  35  22  ~/deployment3.yml
-|4,39,35,22,1712664746,"~/deployment3.yml"
--'  35  22  ~/deployment3.yml
-|4,39,35,22,1712664746,"~/deployment3.yml"
--'  35  22  ~/deployment3.yml
-|4,39,35,22,1712664746,"~/deployment3.yml"
--'  35  22  ~/deployment3.yml
-|4,39,35,22,1712664746,"~/deployment3.yml"
--'  35  22  ~/deployment3.yml
-|4,39,35,22,1712664746,"~/deployment3.yml"
--'  35  22  ~/deployment3.yml
-|4,39,35,22,1712664746,"~/deployment3.yml"
--'  35  22  ~/deployment3.yml
-|4,39,35,22,1712664746,"~/deployment3.yml"
--'  18  7  ~/deployment3.yml
-|4,39,18,7,1712664520,"~/deployment3.yml"
--'  18  7  ~/deployment3.yml
-|4,39,18,7,1712664520,"~/deployment3.yml"
--'  18  7  ~/deployment3.yml
-|4,39,18,7,1712664520,"~/deployment3.yml"
--'  18  7  ~/deployment3.yml
-|4,39,18,7,1712664520,"~/deployment3.yml"
--'  18  7  ~/deployment3.yml
-|4,39,18,7,1712664520,"~/deployment3.yml"
--'  18  7  ~/deployment3.yml
-|4,39,18,7,1712664520,"~/deployment3.yml"
--'  18  7  ~/deployment3.yml
-|4,39,18,7,1712664520,"~/deployment3.yml"
--'  18  7  ~/deployment3.yml
-|4,39,18,7,1712664520,"~/deployment3.yml"
--'  18  7  ~/deployment3.yml
-|4,39,18,7,1712664494,"~/deployment3.yml"
--'  18  7  ~/deployment3.yml
-|4,39,18,7,1712664494,"~/deployment3.yml"
--'  18  7  ~/deployment3.yml
-|4,39,18,7,1712664494,"~/deployment3.yml"
--'  18  7  ~/deployment3.yml
-|4,39,18,7,1712664494,"~/deployment3.yml"
--'  18  7  ~/deployment3.yml
-|4,39,18,7,1712664494,"~/deployment3.yml"
--'  18  7  ~/deployment3.yml
-|4,39,18,7,1712664494,"~/deployment3.yml"
--'  18  7  ~/deployment3.yml
-|4,39,18,7,1712664494,"~/deployment3.yml"
--'  18  7  ~/deployment3.yml
-|4,39,18,7,1712664494,"~/deployment3.yml"
--'  37  15  ~/deployment3.yml
-|4,39,37,15,1712664340,"~/deployment3.yml"
--'  37  15  ~/deployment3.yml
-|4,39,37,15,1712664340,"~/deployment3.yml"
--'  37  15  ~/deployment3.yml
-|4,39,37,15,1712664340,"~/deployment3.yml"
--'  37  15  ~/deployment3.yml
-|4,39,37,15,1712664340,"~/deployment3.yml"
--'  37  15  ~/deployment3.yml
-|4,39,37,15,1712664340,"~/deployment3.yml"
--'  37  15  ~/deployment3.yml
-|4,39,37,15,1712664340,"~/deployment3.yml"
--'  37  15  ~/deployment3.yml
-|4,39,37,15,1712664340,"~/deployment3.yml"
--'  37  15  ~/deployment3.yml
-|4,39,37,15,1712664340,"~/deployment3.yml"
--'  37  15  ~/deployment3.yml
-|4,39,37,15,1712664340,"~/deployment3.yml"
--'  37  15  ~/deployment3.yml
-|4,39,37,15,1712664340,"~/deployment3.yml"
--'  37  15  ~/deployment3.yml
-|4,39,37,15,1712664340,"~/deployment3.yml"
--'  37  15  ~/deployment3.yml
-|4,39,37,15,1712664340,"~/deployment3.yml"
--'  37  15  ~/deployment3.yml
-|4,39,37,15,1712664340,"~/deployment3.yml"
--'  37  15  ~/deployment3.yml
-|4,39,37,15,1712664340,"~/deployment3.yml"
--'  37  15  ~/deployment3.yml
-|4,39,37,15,1712664340,"~/deployment3.yml"
--'  37  15  ~/deployment3.yml
-|4,39,37,15,1712664340,"~/deployment3.yml"
--'  37  15  ~/deployment3.yml
-|4,39,37,15,1712664036,"~/deployment3.yml"
--'  37  15  ~/deployment3.yml
-|4,39,37,15,1712664036,"~/deployment3.yml"
--'  37  15  ~/deployment3.yml
-|4,39,37,15,1712664036,"~/deployment3.yml"
--'  37  15  ~/deployment3.yml
-|4,39,37,15,1712664036,"~/deployment3.yml"
--'  37  15  ~/deployment3.yml
-|4,39,37,15,1712664036,"~/deployment3.yml"
--'  37  15  ~/deployment3.yml
-|4,39,37,15,1712664036,"~/deployment3.yml"
--'  37  15  ~/deployment3.yml
-|4,39,37,15,1712664036,"~/deployment3.yml"
--'  37  15  ~/deployment3.yml
-|4,39,37,15,1712664036,"~/deployment3.yml"
--'  37  16  ~/deployment3.yml
-|4,39,37,16,1712664027,"~/deployment3.yml"
--'  37  16  ~/deployment3.yml
-|4,39,37,16,1712664027,"~/deployment3.yml"
--'  37  16  ~/deployment3.yml
-|4,39,37,16,1712664027,"~/deployment3.yml"
--'  37  16  ~/deployment3.yml
-|4,39,37,16,1712664027,"~/deployment3.yml"
--'  37  16  ~/deployment3.yml
-|4,39,37,16,1712664027,"~/deployment3.yml"
--'  37  16  ~/deployment3.yml
-|4,39,37,16,1712664027,"~/deployment3.yml"
--'  37  16  ~/deployment3.yml
-|4,39,37,16,1712664027,"~/deployment3.yml"
--'  37  16  ~/deployment3.yml
-|4,39,37,16,1712664027,"~/deployment3.yml"
--'  37  17  ~/deployment3.yml
-|4,39,37,17,1712663216,"~/deployment3.yml"
--'  37  17  ~/deployment3.yml
-|4,39,37,17,1712663216,"~/deployment3.yml"
--'  37  17  ~/deployment3.yml
-|4,39,37,17,1712663216,"~/deployment3.yml"
--'  37  17  ~/deployment3.yml
-|4,39,37,17,1712663216,"~/deployment3.yml"
--'  37  17  ~/deployment3.yml
-|4,39,37,17,1712663216,"~/deployment3.yml"
--'  37  17  ~/deployment3.yml
-|4,39,37,17,1712663216,"~/deployment3.yml"
--'  37  17  ~/deployment3.yml
-|4,39,37,17,1712663216,"~/deployment3.yml"
--'  37  17  ~/deployment3.yml
-|4,39,37,17,1712663216,"~/deployment3.yml"
--'  38  1  ~/deployment3.yml
-|4,39,38,1,1712662848,"~/deployment3.yml"
--'  38  1  ~/deployment3.yml
-|4,39,38,1,1712662848,"~/deployment3.yml"
--'  38  1  ~/deployment3.yml
-|4,39,38,1,1712662848,"~/deployment3.yml"
--'  38  1  ~/deployment3.yml
-|4,39,38,1,1712662848,"~/deployment3.yml"
--'  38  1  ~/deployment3.yml
-|4,39,38,1,1712662848,"~/deployment3.yml"
--'  38  1  ~/deployment3.yml
-|4,39,38,1,1712662848,"~/deployment3.yml"
--'  38  1  ~/deployment3.yml
-|4,39,38,1,1712662848,"~/deployment3.yml"
--'  38  1  ~/deployment3.yml
-|4,39,38,1,1712662848,"~/deployment3.yml"
--'  38  1  ~/deployment3.yml
-|4,39,38,1,1712662848,"~/deployment3.yml"
--'  38  1  ~/deployment3.yml
-|4,39,38,1,1712662848,"~/deployment3.yml"
--'  38  1  ~/deployment3.yml
-|4,39,38,1,1712662848,"~/deployment3.yml"
--'  38  1  ~/deployment3.yml
-|4,39,38,1,1712662848,"~/deployment3.yml"
--'  38  1  ~/deployment3.yml
-|4,39,38,1,1712662848,"~/deployment3.yml"
--'  38  1  ~/deployment3.yml
-|4,39,38,1,1712662848,"~/deployment3.yml"
--'  38  1  ~/deployment3.yml
-|4,39,38,1,1712662848,"~/deployment3.yml"
--'  38  1  ~/deployment3.yml
-|4,39,38,1,1712662848,"~/deployment3.yml"
--'  38  1  ~/deployment3.yml
-|4,39,38,1,1712662848,"~/deployment3.yml"
--'  38  1  ~/deployment3.yml
-|4,39,38,1,1712662848,"~/deployment3.yml"
--'  38  1  ~/deployment3.yml
-|4,39,38,1,1712662848,"~/deployment3.yml"
--'  38  1  ~/deployment3.yml
-|4,39,38,1,1712662848,"~/deployment3.yml"
--'  38  1  ~/deployment3.yml
-|4,39,38,1,1712662848,"~/deployment3.yml"
--'  38  1  ~/deployment3.yml
-|4,39,38,1,1712662848,"~/deployment3.yml"
--'  38  1  ~/deployment3.yml
-|4,39,38,1,1712662848,"~/deployment3.yml"
--'  38  1  ~/deployment3.yml
-|4,39,38,1,1712662848,"~/deployment3.yml"
--'  38  1  ~/deployment3.yml
-|4,39,38,1,1712662848,"~/deployment3.yml"
--'  38  1  ~/deployment3.yml
-|4,39,38,1,1712662848,"~/deployment3.yml"
+-'  11  2  ~/statefulset1.yml
+|4,39,11,2,1712844915,"~/statefulset1.yml"
+-'  11  2  ~/statefulset1.yml
+|4,39,11,2,1712840399,"~/statefulset1.yml"
+-'  10  1  ~/statefulset1.yml
+|4,39,10,1,1712840389,"~/statefulset1.yml"
+-'  10  1  ~/statefulset1.yml
+|4,39,10,1,1712840389,"~/statefulset1.yml"
+-'  10  1  ~/statefulset1.yml
+|4,39,10,1,1712840364,"~/statefulset1.yml"
+-'  9  2  ~/statefulset1.yml
+|4,39,9,2,1712840309,"~/statefulset1.yml"
+-'  9  2  ~/statefulset1.yml
+|4,39,9,2,1712840309,"~/statefulset1.yml"
+-'  9  2  ~/statefulset1.yml
+|4,39,9,2,1712840309,"~/statefulset1.yml"
+-'  9  2  ~/statefulset1.yml
+|4,39,9,2,1712840196,"~/statefulset1.yml"
+-'  48  2  ~/statefulset1.yml
+|4,39,48,2,1712840184,"~/statefulset1.yml"
+-'  48  2  ~/statefulset1.yml
+|4,39,48,2,1712840184,"~/statefulset1.yml"
+-'  48  2  ~/statefulset1.yml
+|4,39,48,2,1712840184,"~/statefulset1.yml"
+-'  48  2  ~/statefulset1.yml
+|4,39,48,2,1712840184,"~/statefulset1.yml"
+-'  48  2  ~/statefulset1.yml
+|4,39,48,2,1712840062,"~/statefulset1.yml"
+-'  1  4  ~/statefulset1.yml
+|4,39,1,4,1712840040,"~/statefulset1.yml"
+-'  1  4  ~/statefulset1.yml
+|4,39,1,4,1712840040,"~/statefulset1.yml"
+-'  1  4  ~/statefulset1.yml
+|4,39,1,4,1712840040,"~/statefulset1.yml"
+-'  1  4  ~/statefulset1.yml
+|4,39,1,4,1712840040,"~/statefulset1.yml"
+-'  1  4  ~/statefulset1.yml
+|4,39,1,4,1712840040,"~/statefulset1.yml"
+-'  48  4  ~/statefulset1.yml
+|4,39,48,4,1712839439,"~/statefulset1.yml"
+-'  50  6  ~/statefulset1.yml
+|4,39,50,6,1712839428,"~/statefulset1.yml"
+-'  50  6  ~/statefulset1.yml
+|4,39,50,6,1712839428,"~/statefulset1.yml"
+-'  50  6  ~/statefulset1.yml
+|4,39,50,6,1712839428,"~/statefulset1.yml"
+-'  50  6  ~/statefulset1.yml
+|4,39,50,6,1712839428,"~/statefulset1.yml"
+-'  50  6  ~/statefulset1.yml
+|4,39,50,6,1712839428,"~/statefulset1.yml"
+-'  50  6  ~/statefulset1.yml
+|4,39,50,6,1712839181,"~/statefulset1.yml"
+-'  22  3  ~/statefulset1.yml
+|4,39,22,3,1712839155,"~/statefulset1.yml"
+-'  22  3  ~/statefulset1.yml
+|4,39,22,3,1712839155,"~/statefulset1.yml"
+-'  22  3  ~/statefulset1.yml
+|4,39,22,3,1712839155,"~/statefulset1.yml"
+-'  22  3  ~/statefulset1.yml
+|4,39,22,3,1712839155,"~/statefulset1.yml"
+-'  22  3  ~/statefulset1.yml
+|4,39,22,3,1712839155,"~/statefulset1.yml"
+-'  22  3  ~/statefulset1.yml
+|4,39,22,3,1712839155,"~/statefulset1.yml"
+-'  22  3  ~/statefulset1.yml
+|4,39,22,3,1712838975,"~/statefulset1.yml"
+-'  50  5  ~/statefulset1.yml
+|4,39,50,5,1712838738,"~/statefulset1.yml"
+-'  50  5  ~/statefulset1.yml
+|4,39,50,5,1712838720,"~/statefulset1.yml"
+-'  50  7  ~/statefulset1.yml
+|4,39,50,7,1712838545,"~/statefulset1.yml"
+-'  14  0  ~/statefulset1.yml
+|4,39,14,0,1712838182,"~/statefulset1.yml"
+-'  14  0  ~/statefulset1.yml
+|4,39,14,0,1712838182,"~/statefulset1.yml"
+-'  14  0  ~/statefulset1.yml
+|4,39,14,0,1712838182,"~/statefulset1.yml"
+-'  14  0  ~/statefulset1.yml
+|4,39,14,0,1712838182,"~/statefulset1.yml"
+-'  14  0  ~/statefulset1.yml
+|4,39,14,0,1712838182,"~/statefulset1.yml"
+-'  14  0  ~/statefulset1.yml
+|4,39,14,0,1712838182,"~/statefulset1.yml"
+-'  14  0  ~/statefulset1.yml
+|4,39,14,0,1712838182,"~/statefulset1.yml"
+-'  14  0  ~/statefulset1.yml
+|4,39,14,0,1712838182,"~/statefulset1.yml"
+-'  14  0  ~/statefulset1.yml
+|4,39,14,0,1712838182,"~/statefulset1.yml"
+-'  14  0  ~/statefulset1.yml
+|4,39,14,0,1712838124,"~/statefulset1.yml"
+-'  50  7  ~/statefulset1.yml
+|4,39,50,7,1712838037,"~/statefulset1.yml"
+-'  50  7  ~/statefulset1.yml
+|4,39,50,7,1712838011,"~/statefulset1.yml"
+-'  47  14  ~/statefulset1.yml
+|4,39,47,14,1712837326,"~/statefulset1.yml"
+-'  47  14  ~/statefulset1.yml
+|4,39,47,14,1712837326,"~/statefulset1.yml"
+-'  47  14  ~/statefulset1.yml
+|4,39,47,14,1712837326,"~/statefulset1.yml"
+-'  47  14  ~/statefulset1.yml
+|4,39,47,14,1712837326,"~/statefulset1.yml"
+-'  47  14  ~/statefulset1.yml
+|4,39,47,14,1712837326,"~/statefulset1.yml"
+-'  47  14  ~/statefulset1.yml
+|4,39,47,14,1712837326,"~/statefulset1.yml"
+-'  47  14  ~/statefulset1.yml
+|4,39,47,14,1712837326,"~/statefulset1.yml"
+-'  47  14  ~/statefulset1.yml
+|4,39,47,14,1712837326,"~/statefulset1.yml"
+-'  47  14  ~/statefulset1.yml
+|4,39,47,14,1712837326,"~/statefulset1.yml"
+-'  47  14  ~/statefulset1.yml
+|4,39,47,14,1712837326,"~/statefulset1.yml"
+-'  47  14  ~/statefulset1.yml
+|4,39,47,14,1712837326,"~/statefulset1.yml"
+-'  47  14  ~/statefulset1.yml
+|4,39,47,14,1712837265,"~/statefulset1.yml"
+-'  51  0  ~/statefulset1.yml
+|4,39,51,0,1712836372,"~/statefulset1.yml"
+-'  51  0  ~/statefulset1.yml
+|4,39,51,0,1712836372,"~/statefulset1.yml"
+-'  51  0  ~/statefulset1.yml
+|4,39,51,0,1712836372,"~/statefulset1.yml"
+-'  51  0  ~/statefulset1.yml
+|4,39,51,0,1712836372,"~/statefulset1.yml"
+-'  51  0  ~/statefulset1.yml
+|4,39,51,0,1712836372,"~/statefulset1.yml"
+-'  51  0  ~/statefulset1.yml
+|4,39,51,0,1712836372,"~/statefulset1.yml"
+-'  51  0  ~/statefulset1.yml
+|4,39,51,0,1712836372,"~/statefulset1.yml"
+-'  51  0  ~/statefulset1.yml
+|4,39,51,0,1712836372,"~/statefulset1.yml"
+-'  51  0  ~/statefulset1.yml
+|4,39,51,0,1712836372,"~/statefulset1.yml"
+-'  51  0  ~/statefulset1.yml
+|4,39,51,0,1712836372,"~/statefulset1.yml"
+-'  51  0  ~/statefulset1.yml
+|4,39,51,0,1712836372,"~/statefulset1.yml"
+-'  51  0  ~/statefulset1.yml
+|4,39,51,0,1712836372,"~/statefulset1.yml"
+-'  48  0  ~/statefulset1.yml
+|4,39,48,0,1712836250,"~/statefulset1.yml"
+-'  48  0  ~/statefulset1.yml
+|4,39,48,0,1712836250,"~/statefulset1.yml"
+-'  48  0  ~/statefulset1.yml
+|4,39,48,0,1712836250,"~/statefulset1.yml"
+-'  48  0  ~/statefulset1.yml
+|4,39,48,0,1712836250,"~/statefulset1.yml"
+-'  48  0  ~/statefulset1.yml
+|4,39,48,0,1712836250,"~/statefulset1.yml"
+-'  48  0  ~/statefulset1.yml
+|4,39,48,0,1712836250,"~/statefulset1.yml"
+-'  48  0  ~/statefulset1.yml
+|4,39,48,0,1712836250,"~/statefulset1.yml"
+-'  1  0  ~/statefulset1.yml
+|4,39,1,0,1712835416,"~/statefulset1.yml"
+-'  1  0  ~/statefulset1.yml
+|4,39,1,0,1712835416,"~/statefulset1.yml"
+-'  1  0  ~/statefulset1.yml
+|4,39,1,0,1712835416,"~/statefulset1.yml"
+-'  1  0  ~/statefulset1.yml
+|4,39,1,0,1712835416,"~/statefulset1.yml"
+-'  1  0  ~/statefulset1.yml
+|4,39,1,0,1712835416,"~/statefulset1.yml"
+-'  1  0  ~/statefulset1.yml
+|4,39,1,0,1712835416,"~/statefulset1.yml"
+-'  1  0  ~/statefulset1.yml
+|4,39,1,0,1712835416,"~/statefulset1.yml"
+-'  1  0  ~/statefulset1.yml
+|4,39,1,0,1712835416,"~/statefulset1.yml"
+-'  1  0  ~/statefulset1.yml
+|4,39,1,0,1712835416,"~/statefulset1.yml"
+-'  14  15  ~/volumes1.yml
+|4,39,14,15,1712834983,"~/volumes1.yml"
+-'  14  15  ~/volumes1.yml
+|4,39,14,15,1712834983,"~/volumes1.yml"
+-'  14  15  ~/volumes1.yml
+|4,39,14,15,1712834983,"~/volumes1.yml"
+-'  14  15  ~/volumes1.yml
+|4,39,14,15,1712834983,"~/volumes1.yml"
+-'  14  15  ~/volumes1.yml
+|4,39,14,15,1712834983,"~/volumes1.yml"
+-'  14  15  ~/volumes1.yml
+|4,39,14,15,1712834983,"~/volumes1.yml"
+-'  14  15  ~/volumes1.yml
+|4,39,14,15,1712834983,"~/volumes1.yml"
+-'  14  15  ~/volumes1.yml
+|4,39,14,15,1712834983,"~/volumes1.yml"
+-'  14  15  ~/volumes1.yml
+|4,39,14,15,1712834983,"~/volumes1.yml"
+-'  14  15  ~/volumes1.yml
+|4,39,14,15,1712834983,"~/volumes1.yml"
+-'  14  15  ~/volumes1.yml
+|4,39,14,15,1712834983,"~/volumes1.yml"
+-'  14  15  ~/volumes1.yml
+|4,39,14,15,1712834983,"~/volumes1.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/statefulset1.yml
+	*	1712840794	0
+	"	11	2
+	^	11	3
+	.	11	2
+	+	1	0
+	+	1	4
+	+	1	17
+	+	1	27
+	+	1	19
+	+	1	20
+	+	1	16
+	+	1	0
+	+	1	16
+	+	1	30
+	+	1	0
+	+	1	30
+	+	1	44
+	+	1	0
+	+	1	25
+	+	1	31
+	+	1	0
+	+	1	16
+	+	1	4
+	+	1	8
+	+	1	14
+	+	1	2
+	+	1	30
+	+	1	23
+	+	1	45
+	+	1	21
+	+	1	38
+	+	1	4
+	+	1	12
+	+	1	1
+	+	1	2
+	+	1	4
+	+	1	6
+	+	1	8
+	+	1	7
+	+	1	2
+	+	1	0
+	+	1	2
+	+	1	11
+	+	1	0
+	+	1	2
+	+	1	4
+	+	1	2
+	+	1	4
+	+	1	6
+	+	1	8
+	+	1	6
+	+	1	8
+	+	1	2
+	+	1	4
+	+	1	6
+	+	1	8
+	+	1	1
+	+	1	0
+	+	1	2
+	+	1	4
+	+	1	6
+	+	1	3
+	+	1	4
+	+	1	5
+	+	1	6
+	+	1	3
+	+	49	0
+	+	9	2
+	+	10	2
+	+	11	2
+
+> ~/volumes1.yml
+	*	1712834980	0
+	"	14	15
+	^	14	16
+	.	14	15
+	+	17	17
+	+	12	12
+	+	19	2
+	+	12	17
+	+	13	27
+	+	14	10
+	+	15	2
+	+	14	15
+
+> ~/mytomcat/values.yaml
+	*	1712831881	0
+	"	44	11
+	^	44	12
+	.	44	11
+	+	43	19
+	+	44	11
+
+> ~/mynginx/values.yaml
+	*	1712831407	0
+	"	43	8
+	^	43	9
+	.	43	8
+	+	43	8
+
+> ~/service1.yml
+	*	1712831318	0
+	"	9	14
+	^	9	15
+	.	16	0
+	+	17	0
+	+	1	201
+	+	16	5
+	+	1	23
+	+	1	130
+	+	1	144
+	+	1	164
+	+	1	144
+	+	1	104
+	+	1	112
+	+	16	3
+	+	17	0
+	+	2	0
+	+	16	0
+
+> ~/mynginx/service1.yml
+	*	1712831265	0
+	"	1	0
+	^	1	0
+
+> ~/toleration2.yml
+	*	1712830675	0
+	"	27	2
+	^	27	3
+	.	27	2
+	+	14	13
+	+	27	2
+
+> ~/toleration1.yml
+	*	1712829958	0
+	"	16	19
+	^	16	20
+	.	16	19
+	+	17	2
+	+	1	2
+	+	12	5
+	+	14	23
+	+	16	19
+
+> ~/nodeaffinity2.yml
+	*	1712826539	0
+	"	31	2
+	^	31	3
+	.	31	2
+	+	1	47
+	+	31	2
+
+> ~/nodeaffinity1.yml
+	*	1712826521	0
+	"	22	0
+	^	22	0
+	.	21	3
+	+	1	123
+	+	1	0
+	+	1	56
+	+	1	98
+	+	1	123
+	+	1	122
+	+	1	6
+	+	1	8
+	+	1	46
+	+	1	22
+	+	1	19
+	+	1	6
+	+	1	2
+	+	1	27
+	+	1	51
+	+	1	75
+	+	1	92
+	+	1	17
+	+	1	22
+	+	1	30
+	+	1	71
+	+	1	49
+	+	1	119
+	+	1	30
+	+	1	3
+	+	21	3
+
+> ~/requestsandlimit2.yml
+	*	1712743266	0
+	"	29	2
+	^	29	3
+	.	29	2
+	+	30	0
+	+	12	20
+	+	20	23
+	+	29	8
+	+	29	123
+	+	29	298
+	+	29	437
+	+	29	652
+	+	29	2
+
+> ~/requestsandlimit1.yml
+	*	1712742826	0
+	"	18	5
+	^	18	6
+	.	18	6
+	+	9	12
+	+	17	24
+	+	21	0
+	+	17	23
+	+	20	0
+	+	18	20
+	+	19	2
+	+	12	5
+	+	13	7
+	+	12	5
+	+	9	0
+	+	10	1
+	+	10	18
+	+	12	2
+	+	13	3
+	+	14	4
+	+	15	5
+	+	16	7
+	+	17	7
+	+	18	7
+	+	12	6
+	+	5	0
+	+	6	8
+	+	7	0
+	+	10	0
+	+	10	19
+	+	12	2
+	+	13	2
+	+	14	19
+	+	17	22
+	+	12	5
+	+	13	7
+	+	15	18
+	+	7	2
+	+	9	0
+	+	10	17
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	2
+	+	15	0
+	+	16	2
+	+	17	0
+	+	18	2
+	+	12	12
+	+	13	12
+	+	14	6
+	+	3	6
+	+	12	4
+	+	14	6
+	+	15	6
+	+	17	6
+	+	18	6
+
+> ~/requestsandlimit1.ymll
+	*	1712741005	0
+	"	2	0
+	^	2	0
+	.	1	3
+	+	1	3
 
 > ~/daemonset2.yml
 	*	1712665636	0
@@ -368,185 +665,3 @@
 	+	13	12
 	+	15	2
 	+	10	9
-
-> ~/service2.yml
-	*	1712659212	0
-	"	13	20
-	^	13	21
-	.	13	20
-	+	17	2
-	+	9	8
-	+	13	20
-
-> ~/definition3.yml
-	*	1712658800	0
-	"	6	4
-	^	6	5
-	.	6	5
-	+	16	2
-	+	2	3
-	+	15	14
-	+	14	19
-	+	6	2
-	+	3	6
-	+	2	13
-	+	3	6
-	+	4	0
-	+	22	0
-	+	16	3
-	+	17	0
-	+	6	9
-	+	6	5
-
-> ~/service1.yml
-	*	1712658410	0
-	"	10	7
-	^	10	8
-	.	16	0
-	+	17	0
-	+	1	201
-	+	16	5
-	+	1	23
-	+	1	130
-	+	1	144
-	+	1	164
-	+	1	144
-	+	1	104
-	+	1	112
-	+	16	3
-	+	17	0
-	+	2	0
-	+	16	0
-
-> ~/daemonset1.yml
-	*	1712657855	0
-	"	24	1
-	^	24	2
-	.	24	2
-	+	24	2
-
-> ~/difinition6.yml
-	*	1712656669	0
-	"	7	1
-	^	7	2
-	.	6	2
-	+	20	0
-	+	3	6
-	+	6	2
-
-> ~/definition6.yml
-	*	1712656637	0
-	"	1	0
-	^	1	0
-
-> ~/definition5.yml
-	*	1712656620	0
-	"	13	5
-	^	13	6
-	.	13	6
-	+	17	0
-	+	15	24
-	+	16	2
-	+	13	6
-
-> ~/definition4.yml
-	*	1712656605	0
-	"	25	1
-	^	26	2
-	.	26	2
-	+	26	2
-
-> ~/definition2.yml
-	*	1712656571	0
-	"	3	5
-	^	3	6
-	.	3	6
-	+	22	0
-	+	1	153
-	+	1	163
-	+	1	236
-	+	1	172
-	+	1	250
-	+	1	270
-	+	1	205
-	+	21	2
-	+	1	105
-	+	1	27
-	+	1	4
-	+	1	105
-	+	1	35
-	+	1	271
-	+	19	23
-	+	3	6
-
-> ~/definition1.yml
-	*	1712656557	0
-	"	5	15
-	^	5	16
-	.	6	0
-	+	15	0
-	+	2	132
-	+	14	2
-	+	13	17
-	+	6	0
-
-> ~/deployment2.yml
-	*	1712656476	0
-	"	10	11
-	^	10	12
-	.	10	12
-	+	28	0
-	+	3	0
-	+	5	24
-	+	27	0
-	+	22	8
-	+	21	14
-	+	22	24
-	+	25	31
-	+	26	2
-	+	10	12
-
-> ~/deployment1.yml
-	*	1712576383	0
-	"	10	12
-	^	10	13
-	.	10	12
-	+	18	19
-	+	20	17
-	+	24	31
-	+	26	2
-	+	12	3
-	+	13	5
-	+	10	12
-
-> ~/Replicaset1.yml
-	*	1712575635	0
-	"	10	11
-	^	10	12
-	.	10	11
-	+	4	9
-	+	10	10
-	+	30	0
-	+	12	7
-	+	11	1
-	+	14	11
-	+	29	0
-	+	23	13
-	+	24	30
-	+	28	0
-	+	25	25
-	+	27	0
-	+	26	2
-	+	3	13
-	+	15	1
-	+	16	3
-	+	17	4
-	+	18	5
-	+	19	2
-	+	20	4
-	+	21	6
-	+	22	7
-	+	23	8
-	+	24	9
-	+	25	11
-	+	10	11

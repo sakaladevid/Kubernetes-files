@@ -1,0 +1,6 @@
+{
+    "remote.SSH.remotePlatform": {
+        "kops": "linux"
+    },
+    "redhat.telemetry.enabled": true
+}

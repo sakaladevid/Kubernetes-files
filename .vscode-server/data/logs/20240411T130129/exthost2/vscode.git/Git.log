@@ -1,0 +1,17 @@
+2024-04-11 13:02:26.670 [info] Log level: Info
+2024-04-11 13:02:26.670 [info] Validating found git in: "git"
+2024-04-11 13:02:26.670 [info] Using git "2.40.1" from "git"
+2024-04-11 13:02:26.670 [info] > git rev-parse --show-toplevel [21ms]
+2024-04-11 13:02:26.670 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2024-04-11 13:02:26.670 [info] Open repository: /home/ec2-user
+2024-04-11 13:02:26.670 [info] > git config --get commit.template [7ms]
+2024-04-11 13:02:26.670 [info] > git rev-parse --show-toplevel [17ms]
+2024-04-11 13:02:26.670 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2024-04-11 13:02:26.670 [info] > git status -z -uall [68ms]
+2024-04-11 13:02:26.670 [info] > git merge-base refs/heads/master refs/remotes/origin/master [59ms]
+2024-04-11 13:02:26.670 [info] > git config --get commit.template [15ms]
+2024-04-11 13:02:26.670 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [13ms]
+2024-04-11 13:02:26.670 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [424ms]
+2024-04-11 13:02:26.670 [info] > git diff --name-status -z --diff-filter=ADMR f43eab15c97e49cc3a2c3c36f8401929abbdd667...refs/remotes/origin/master [435ms]
+2024-04-11 13:02:26.670 [info] > git status -z -uall [37ms]
+2024-04-11 13:02:27.091 [info] > git check-ignore -v -z --stdin [2ms]

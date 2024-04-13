@@ -1,0 +1,105 @@
+2024-04-11 13:03:40.987 [info] Extension host with pid 10616 started
+2024-04-11 13:03:59.704 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-11 13:04:00.085 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-11 13:04:00.085 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-11 13:04:03.689 [info] Eager extensions activated
+2024-04-11 13:04:03.690 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-11 13:04:03.690 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-11 13:09:11.852 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-04-11 13:09:11.874 [error] Canceled: Canceled
+	at Object.P [as $6] (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:10:967)
+	at /home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:151:2335
+	at Array.forEach (<anonymous>)
+	at h.dispose (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:151:2273)
+	at g.terminate (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:160:8053)
+	at a.terminate (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at t (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:177:9917)
+	at j.a (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:177:6710)
+	at j.h (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:99:20622)
+	at listOnTimeout (node:internal/timers:569:17)
+	at process.processTimers (node:internal/timers:512:7) setContext undefined
+2024-04-11 13:09:11.874 [error] Canceled: Canceled
+	at Object.P [as $6] (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:10:967)
+	at /home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:151:2335
+	at Array.forEach (<anonymous>)
+	at h.dispose (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:151:2273)
+	at g.terminate (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:160:8053)
+	at a.terminate (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at t (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:177:9917)
+	at j.a (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:177:6710)
+	at j.h (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:99:20622)
+	at listOnTimeout (node:internal/timers:569:17)
+	at process.processTimers (node:internal/timers:512:7) setContext undefined
+2024-04-11 13:09:11.875 [error] Canceled: Canceled
+	at Object.P [as $6] (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:10:967)
+	at /home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:151:2335
+	at Array.forEach (<anonymous>)
+	at h.dispose (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:151:2273)
+	at g.terminate (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:160:8053)
+	at a.terminate (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at t (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:177:9917)
+	at j.a (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:177:6710)
+	at j.h (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:99:20622)
+	at listOnTimeout (node:internal/timers:569:17)
+	at process.processTimers (node:internal/timers:512:7) setContext undefined
+2024-04-11 13:09:11.877 [error] Canceled: Canceled
+	at Object.P [as $6] (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:10:967)
+	at /home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:151:2335
+	at Array.forEach (<anonymous>)
+	at h.dispose (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:151:2273)
+	at g.terminate (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:160:8053)
+	at a.terminate (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at t (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:177:9917)
+	at j.a (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:177:6710)
+	at j.h (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:99:20622)
+	at listOnTimeout (node:internal/timers:569:17)
+	at process.processTimers (node:internal/timers:512:7) setContext undefined
+2024-04-11 13:09:11.880 [error] Canceled: Canceled
+	at Object.P [as $6] (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:10:967)
+	at /home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:151:2335
+	at Array.forEach (<anonymous>)
+	at h.dispose (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:151:2273)
+	at g.terminate (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:160:8053)
+	at a.terminate (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at t (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:177:9917)
+	at j.a (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:177:6710)
+	at j.h (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:99:20622)
+	at listOnTimeout (node:internal/timers:569:17)
+	at process.processTimers (node:internal/timers:512:7) setContext undefined
+2024-04-11 13:09:11.881 [error] Canceled: Canceled
+	at Object.P [as $6] (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:10:967)
+	at /home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:151:2335
+	at Array.forEach (<anonymous>)
+	at h.dispose (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:151:2273)
+	at g.terminate (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:160:8053)
+	at a.terminate (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at t (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:177:9917)
+	at j.a (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:177:6710)
+	at j.h (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:99:20622)
+	at listOnTimeout (node:internal/timers:569:17)
+	at process.processTimers (node:internal/timers:512:7) setContext undefined
+2024-04-11 13:09:11.881 [error] Canceled: Canceled
+	at Object.P [as $6] (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:10:967)
+	at /home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:151:2335
+	at Array.forEach (<anonymous>)
+	at h.dispose (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:151:2273)
+	at g.terminate (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:160:8053)
+	at a.terminate (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at t (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:177:9917)
+	at j.a (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:177:6710)
+	at j.h (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:99:20622)
+	at listOnTimeout (node:internal/timers:569:17)
+	at process.processTimers (node:internal/timers:512:7) setContext undefined
+2024-04-11 13:09:11.882 [error] Canceled: Canceled
+	at Object.P [as $6] (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:10:967)
+	at /home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:151:2335
+	at Array.forEach (<anonymous>)
+	at h.dispose (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:151:2273)
+	at g.terminate (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:160:8053)
+	at a.terminate (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at t (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:177:9917)
+	at j.a (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:177:6710)
+	at j.h (/home/ec2-user/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/workbench/api/node/extensionHostProcess.js:99:20622)
+	at listOnTimeout (node:internal/timers:569:17)
+	at process.processTimers (node:internal/timers:512:7) setContext undefined
+2024-04-11 13:09:11.883 [info] Extension host with pid 10616 exiting with code 0
